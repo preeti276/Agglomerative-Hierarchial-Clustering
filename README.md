@@ -2,7 +2,7 @@
 This repository contains an implementation of data analysis for both supervised and unsupervised learning.
 
 ## Supervised Learning: Random Forest
-Random Forest, an ensemble method, is implemented to enable data analysis on supervised data. It is implemented on the Boston dataset medv is the label, and the other 13 variables in the dataset are the attributes. Since the label here is not categorical, it is a regression problem for data analysis. We will use 100 decision trees, each of height 3 here, to make an effective random forest model.
+Random Forest, an ensemble method, is implemented to enable data analysis on supervised data. It is implemented on the Boston dataset where medv is the label, and the other 13 variables in the dataset are the attributes. Since the label here is not categorical, it is a regression problem for data analysis. We will use 100 decision trees, each of height 3, to make an effective random forest model.
 
 #### Input: 
 Boston dataset with 506 13-attribute records and a label field for each record. 
