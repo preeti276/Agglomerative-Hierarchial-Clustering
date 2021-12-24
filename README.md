@@ -17,7 +17,7 @@ Random forest method is similar to using recursive binary splitting ,i.e. genera
 #### Output:
 Analyze the data using the error rate from all B decision trees.
 
-All the code related details are added in code. The effect of changing the number of decision trees considered and the height of each tree is also presented in attached report.
+All the code related details are added in code file. The effect of changing the number of decision trees considered and the height of each tree is presented in attached report.
 
 ## Unsupervised Learning: Agglomerative Hierarchial Clustering
 Agglomerative Hierarchical Clustering is implemented to enable data analysis on unsupervised data. The dataset used is NCI microarray which has 64 columns and 6830 rows, where each column is an observation (a cell line), and each row represents a feature (a gene). Therefore, the dataset is represented via its transposed data matrix with 64 rows where each row is an observation and each observation is 6830-dimensional.The main target for data analysis on this unlabelled dataset is to understand the structure of the data by forming clusters.
